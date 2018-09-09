@@ -2,6 +2,10 @@ package packageConversions;
 
 public class Principal {
 
-    Control o=new Control();
+    public static void main(String args[]){
+
+        Control o=new Control();
+    }
+    
 
 }

@@ -10,7 +10,7 @@ public class Control {
     Fahrenheit obj2=new Fahrenheit();
     Kelvin obj3=new Kelvin();
 
-    Control() {
+    public Control() {
         int opc;
         double res;
         Scanner s = new Scanner(System.in);
