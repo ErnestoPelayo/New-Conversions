@@ -3,13 +3,13 @@ package packageConversions;
 public class Kelvin implements MethodsKelvin {
 
     double resultado;
-    Fahrenheit o = new Fahrenheit();
+
 
     @Override
     public double KelvinToCelsius(double e) {
         double aux;
-        resultado = KelvinToFahrenheit(e);
-        return aux = o.FahrenheitToCelsius(resultado);
+        resultado =(9 * (e - 273.15) / 5) + 32;;
+        return aux = ((resultado-32)/1.8);
     }
 
     @Override
